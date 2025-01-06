@@ -1,0 +1,51 @@
+@import 'mixin';
+html {
+    @include basic;
+}
+body {
+    margin: 0 auto;
+    max-width: 1660px;
+    background: linear-gradient(to bottom, #FDFBFB, #EEF1F5); 
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;     
+}
+
+#root {
+    margin: 0 auto;
+}
+h1 {
+    @include h1;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #000;
+}
+h2 {
+    @include h2;
+}
+p {
+    line-height:1.5;
+}
+
+
+//dark-mode
+body.dark-mode {
+    background: linear-gradient(to bottom, #212020, #232E55); 
+    color: #fff;
+    h1 {
+        @include h1;
+        border-bottom: 3px solid #fff;
+    }
+    .l {
+        &-header {
+            &-left {
+                &-profile {
+                    background-color: #372AEA;
+                }
+            }
+            &-right {            
+                background: linear-gradient(to bottom, #F5EFEF, #372AEA);
+                color: #000;
+            }
+        }
+    }
+}

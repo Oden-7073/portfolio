@@ -1,0 +1,10 @@
+@for $i from 0 through 100 {
+    .mb_#{$i} {
+      margin-bottom: #{$i}px;
+    }
+  }
+@for $i from 0 through 100 {
+    .pb_#{$i} {
+        padding-bottom: #{$i}px;
+    }
+}

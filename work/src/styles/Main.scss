@@ -1,0 +1,11 @@
+@import "mixin";
+
+.l {
+    &-main {
+        padding: 0 130px;
+        &-summy {
+            max-width: 1080px;
+            margin-top: -19%;
+        }
+    }
+}
