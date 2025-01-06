@@ -1,6 +1,7 @@
-@import 'mixin';
+@use "mixin";
+
 html {
-    @include basic;
+    @include mixin.basic;
 }
 body {
     margin: 0 auto;
@@ -14,13 +15,13 @@ body {
     margin: 0 auto;
 }
 h1 {
-    @include h1;
+    @include mixin.h1;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 3px solid #000;
 }
 h2 {
-    @include h2;
+    @include mixin.h2;
 }
 p {
     line-height:1.5;
@@ -32,7 +33,7 @@ body.dark-mode {
     background: linear-gradient(to bottom, #212020, #232E55); 
     color: #fff;
     h1 {
-        @include h1;
+        @include mixin.h1;
         border-bottom: 3px solid #fff;
     }
     .l {

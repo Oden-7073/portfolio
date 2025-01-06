@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/ToggleSwitch.scss";
+import '../styles/style.scss';
 
 function ToggleSwitch() {
   const [isDarkMode, setIsDarkMode] = useState(false);
