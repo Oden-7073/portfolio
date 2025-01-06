@@ -8,7 +8,7 @@ function Header() {
                 <div className="l-header-left-profile">
                     <div className="l-header-left-profile_icon">
                         <h2>Profile</h2>
-                        <img src="../assets/index_fig02.png" alt="profile icon01">
+                        <img src="./assets/index_fig02.png" alt="profile icon01">
                         </img>                   
                     </div>                    
                 </div>
@@ -26,7 +26,7 @@ function Header() {
                         <ToggleSwitch />
                     </div>                    
                 </div>
-                <img src="../assets/index_fig01.svg" alt="profile icon02"></img>
+                <img src="./assets/index_fig01.svg" alt="profile icon02"></img>
             </div>
         </header>
     );
