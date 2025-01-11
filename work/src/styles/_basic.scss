@@ -28,6 +28,7 @@ p {
 }
 a {
     @include mixin.roboto;
+    color: #000;
     &:hover {
         color: #FEADA6 !important;
     }
@@ -43,6 +44,7 @@ a {
 //tag
 .tags {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     
     &_tag {
@@ -51,6 +53,7 @@ a {
         background-color: #E3E3E3;
         border-radius: 25px;
         color: #000;
+        height: fit-content;
         @include mixin.roboto;
     }            
 }

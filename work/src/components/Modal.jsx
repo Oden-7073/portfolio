@@ -31,6 +31,7 @@ function Modal({ item, onClose }) {
         {/* 顯示詳細內容 */}
         {item.details && (
           <div className="l-modal-content-details">
+            <h3>担当した分</h3>
             <p className="l-modal-content-details-intro">{item.details.intro}</p>
             <ul className="l-modal-content-details-list">
               {item.details.list.map((detail, index) => (

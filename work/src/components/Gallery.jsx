@@ -13,7 +13,6 @@ const items = [
         links: [
             { label: "https://www.mind.co.jp/", url: "https://www.mind.co.jp/" }
           ],
-        images: ["./assets/gallery01_fig02.png", "./assets/gallery01_fig03.png"],
         details: {
             intro: "主に担当した範囲は、MINDのページ再構築におけるコーディングです。以下は実際にコーディング制作に参加した具体的な範囲です:",
             list: [
@@ -77,6 +76,130 @@ const items = [
               { text: "先輩社員の声K.M.", url: "https://www.musashinet.co.jp/recruit/interview/interview1.html" }, 
               { text: "先輩社員の声T.K.", url: "https://www.musashinet.co.jp/recruit/interview/interview2.html" },
               { text: "先輩社員の声H.W.", url: "https://www.musashinet.co.jp/recruit/interview/interview4.html" } // 沒有超連結的條目=url:null
+            ]
+        }
+    },
+    { 
+        id: 5, 
+        title: "ムサシ・イメージ情報株式会社", 
+        image: "./assets/gallery05_fig01.png", 
+        description: "ユーザー企業の製品や事例などを紹介する総合的な企業ウェブサイトの構築支援。" ,
+        tags: ["Html", "Css", "Coding","JavaScript","UI/UX"],
+        date: "2021.07 - 2024.12",
+        links: [
+            { label: "https://www.musashi-ij.co.jp/", url: "https://www.musashi-ij.co.jp/" }
+          ],
+        details: {
+            intro: "主に担当した範囲は、各種機能サブページのコーディング、さらに日常的な保守・更新作業です。",
+            list: [
+              {text: "用語集", url: "https://www.musashi-ij.co.jp/glossary/"},
+              { text: "メディア変換サービス", url: "https://www.musashi-ij.co.jp/business/" },
+              { text: "デジタルイメージング", url: "https://www.musashi-ij.co.jp/business/digital/" },
+              {text: "マイクロイメージング", url: "https://www.musashi-ij.co.jp/business/microfilm/"},
+              { text: "メディカルサポート", url: "https://www.musashi-ij.co.jp/business/medical/" } // 沒有超連結的條目=url:null
+            ]
+        }
+    },
+    { 
+        id: 6, 
+        title: "人生を輝かせる趣味釣りあそびジャーナル", 
+        image: "./assets/gallery06_fig01.png", 
+        description: "PHPを使用して構築された、釣りの楽しさやさまざまな釣り知識を紹介する趣味志向のウェブサイト" ,
+        tags: ["Html", "Css", "Coding","JavaScript","Wordoress","図版作成","UI/UX"],
+        date: "2021.07 - 2024.12",
+        links: [
+            { label: "https://tsuriasobi.net/", url: "https://tsuriasobi.net/" }
+          ],
+        images: ["./assets/gallery06_fig02.png", "./assets/gallery06_fig03.png"],
+        details: {
+            intro: "主に担当した範囲は、各種機能サブページのコーディングおよび図版作成、さらに日常的な保守・更新作業です。",
+            list: [
+              {text: "さくらちゃんが１本のサオで自分だけの図鑑作りに挑戦！", url:null},
+              { text: "魚の図鑑", url: "https://tsuriasobi.net/dictionary/" },
+              { text: "魚の料理方法", url: "https://tsuriasobi.net/#cook" },
+              {text: "釣りのトラブルシューティングと準備", url: "https://tsuriasobi.net/#howto"},
+              { text: "魚の種類別・ルアー釣り入門", url: "https://tsuriasobi.net/#lure" }
+            ]
+        }
+    },
+    { 
+        id: 7, 
+        title: "DAIDO.high-R", 
+        image: "./assets/gallery07_fig01.png", 
+        description: "ユーザー企業の車両レンタルサービスを紹介するウェブサイト。主に担当した範囲は、FigmaでUI/UXをデザイン作成した後、LPページを制作することです。" ,
+        tags: ["Html", "Css", "Coding","JavaScript","UI/UX","LP"],
+        date: "2023.05",
+        links: [
+            { label: "https://www.daidohr.com/", url: "https://www.daidohr.com/" }
+          ]
+    },   
+    { 
+        id: 8, 
+        title: "大同通運グループ", 
+        image: "./assets/gallery08_fig01.png", 
+        description: "ユーザー企業の車両レンタルサービスを紹介するウェブサイト。主に担当した範囲は、日常的な保守・更新作業ですです。" ,
+        tags: ["Html", "Css", "Coding","JavaScript"],
+        date: "2023.05 - 2024.11",
+        links: [
+            { label: " https://daido-grp.com/", url: " https://daido-grp.com/" }
+          ]
+    },
+    { 
+        id: 9, 
+        title: "go global inter kids", 
+        image: "./assets/gallery09_fig01.png", 
+        description: "Go Global Inter Kidsは有名なインターナショナルスクールであり、子どもたちに優れた外国語学習環境を提供することを目的としています。主に担当した範囲は、ウェブサイトの保守・更新と機能実装のコーディング(2024年4月まで担当" ,
+        tags: ["Html", "Css", "Coding","JavaScript","Wordoress","図版作成","UI/UX"],
+        date: "2021.07 - 2024.04",
+        links: [
+            { label: "https://www.gglobal.jp/", url: "https://www.gglobal.jp/" }
+          ]
+    },
+    { 
+        id: 10, 
+        title: "JCHO大阪病院 脊椎外科センター", 
+        image: "./assets/gallery10_fig01.png", 
+        description: "病院が一般の方々のために作成した医師個人用LPサイトであり、患者が医師の経歴や得意とする専門分野を知ることを目的としています。主に担当した範囲は、FigmaでUI/UXをデザイン作成した後、LPページを制作することです。" ,
+        tags: ["Html", "Css", "Coding","JavaScript","図版作成","UI/UX"],
+        date: "2023.12",
+        images: ["./assets/gallery10_fig02.png"]
+    },
+    { 
+        id: 11, 
+        title: "採用情報 | セガサミーホールディングス", 
+        image: "./assets/gallery11_fig01.png", 
+        description: "セガサミーホールディングスの採用ページです。求職者向けに会社の環境や福利厚生を紹介することを目的としています。" ,
+        tags: ["Html", "Css", "Coding","JavaScript"],
+        date: "2023.07 - 2024.11",
+        links: [
+            { label: "https://www.segasammy.co.jp/ja/recruit/", url: "https://www.segasammy.co.jp/ja/recruit/" }
+          ],
+        details: {
+            intro: "主に担当した範囲は、座談会セクションのコーディングや画像の修正および加工です。",
+            list: [
+              {text: "企業内大学「セガサミーカレッジ」の設立と取り組み", url: "https://www.segasammy.co.jp/ja/recruit/project/college.html"},
+              { text: "人を知る（サブページ含む）", url: "https://www.segasammy.co.jp/ja/recruit/people/" },
+              { text: "座談会から社風を知る ～若手社員編～（他の座談会ページ含む）", url: "https://www.segasammy.co.jp/ja/recruit/crosstalk/crosstalk01.html" }
+            ]
+        }
+    },
+    { 
+        id: 12, 
+        title: "ニキビ一緒に治そうProject｜製薬会社のマルホ", 
+        image: "./assets/gallery12_fig01.png", 
+        description: "ニキビ一緒に治そうProjectは製薬会社のマルホがニキビに関する情報を発信します。ニキビの原因から皮膚科でのニキビ治療をご紹介。" ,
+        tags: ["Html", "Css", "Coding","JavaScript"],
+        date: "2021.11 - 2022.11",
+        links: [
+            { label: "https://www.maruho.co.jp/kanja/nikibi/", url: "https://www.maruho.co.jp/kanja/nikibi/" }
+          ],
+        details: {
+            intro: "主に担当した範囲は、「部位・お悩み別ニキビの治し方」セクションのサブページ追加します。",
+            list: [
+              {text: "あごニキビの原因と治し方、ケアは？", url: "https://www.maruho.co.jp/kanja/nikibi/tag/tag_11.html"},
+              { text: "口周りニキビの原因と治し方、ケアは？", url: "https://www.maruho.co.jp/kanja/nikibi/tag/tag_09.html" },
+              { text: "おでこニキビの原因と治し方、ケアは？", url: "https://www.maruho.co.jp/kanja/nikibi/tag/tag_10.html" },
+              { text: "頬ニキビの原因とケア、治し方は？", url: "https://www.maruho.co.jp/kanja/nikibi/tag/tag_08.html" }
             ]
         }
     },
