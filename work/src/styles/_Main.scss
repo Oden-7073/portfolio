@@ -2,10 +2,105 @@
 
 .l {
     &-main {
-        padding: 0 130px;
+        padding: 0 8%;
         &-summy {
             max-width: 1080px;
             margin-top: -19%;
         }
+    }
+    &-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+
+        h2 {
+            font-size: 1.5rem;
+            @include mixin.jp-ttl;
+        }
+
+        &-item{
+            cursor: pointer;
+            text-align: left;
+            padding: 20px;
+            img {
+                width: 100%;
+                transition: transform 0.3s;
+                margin-bottom: 30px;
+                border-radius: 50px;                
+                box-shadow: mixin.$box-shadow;
+                &:hover {
+                    transition: scale(1.05);
+                }
+            }            
+        }        
+    }
+    &-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px); /* 背景模糊 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        opacity: 0;
+        animation: fadeIn 0.3s forwards;
+        color: #000;
+
+        &-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            text-align: left;
+            position: relative;
+            max-height: 90%;
+            overflow: overlay;
+
+            img {
+                width: 100%;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            &-ttl {
+                @include mixin.jp-ttl;
+            }
+            &-details {
+                margin-bottom: 30px;
+                &-intro{
+                    padding-bottom: 20px;
+                    border-bottom: #000 1px solid;
+                    margin-bottom: 20px;
+                }
+                &-list {
+                    margin-left: 20px;
+                }
+            }
+            
+        }
+        button {
+            margin-top: 50px;
+            padding: 10px 20px;
+            background: #FEADA6;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            &:hover {
+                background: #0056b3;
+            }
+        }
+    }
+      
+    @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
     }
 }

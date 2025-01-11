@@ -1,4 +1,5 @@
 import '../styles/style.scss';
+import Gallery from './Gallery';
 
 function Main() {
     return(
@@ -30,6 +31,7 @@ function Main() {
             </div>
             <div className="l-main-work pb_100">
                 <h1>Works</h1>
+                <Gallery />
             </div>
         </main>        
     );

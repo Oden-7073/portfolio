@@ -13,16 +13,16 @@ function Header() {
                     </div>                    
                 </div>
                 <div className="l-header-left-txtarea">
-                    <h2>LYH</h2>
+                    <h2>Oden</h2>
                     <p className='mb_10'>From Taiwan, go to  Japan in 2019.<br/>2009 百年來的凝視ー 大学生ポスターデザインコンテスト 「佳作」賞をもらいました。</p>
                     <p>本サイトをReactで作成します。</p>
                 </div>                
             </div>
             <div className="l-header-right">
                 <div className="l-header-right_ttlbox">
-                    <h1>言午</h1>
+                    <h1>子午</h1>
                     <div>
-                        <p className='mb_10'>LYHs Personal<br/> Portfolio Website</p>
+                        <p className='mb_10'>Odens Personal<br/> Portfolio Website</p>
                         <ToggleSwitch />
                     </div>                    
                 </div>

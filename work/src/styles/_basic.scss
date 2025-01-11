@@ -26,8 +26,34 @@ h2 {
 p {
     line-height:1.5;
 }
+a {
+    @include mixin.roboto;
+    &:hover {
+        color: #FEADA6 !important;
+    }
+    &:visited {
+        color: inherit;
+    }
+}
 
-
+//date
+.date {
+    @include mixin.roboto;
+}
+//tag
+.tags {
+    display: flex;
+    gap: 10px;
+    
+    &_tag {
+        padding: 5px 15px;
+        font-size: 12px;
+        background-color: #E3E3E3;
+        border-radius: 25px;
+        color: #000;
+        @include mixin.roboto;
+    }            
+}
 //dark-mode
 body.dark-mode {
     background: linear-gradient(to bottom, #212020, #232E55); 
