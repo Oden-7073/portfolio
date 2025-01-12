@@ -21,6 +21,9 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 1.875rem;
+    @media screen and (max-width:768px) {
+        font-size: 1.25rem;
+    }   
 }
 @mixin h1 {
     font-family: "Roboto", serif;
@@ -43,3 +46,10 @@
 
 //effect
 $box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+
+//window-weight
+
+
+$sp: 768px;
+$tb: 1280px;
+$px: 1920px;
