@@ -8,7 +8,7 @@ function Header() {
                 <div className="l-header-left-profile">
                     <div className="l-header-left-profile_icon">
                         <h2>Profile</h2>
-                        <img src="./assets/index_fig02.png" alt="profile icon01">
+                        <img src="./assets/index_fig02.webp" alt="profile icon01">
                         </img>                   
                     </div>                    
                 </div>
