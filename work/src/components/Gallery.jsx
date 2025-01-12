@@ -249,7 +249,7 @@ const items = [
         description: "シングルフャーザーのアンライシャープ委託。" ,
         tags: ["Graphic Design","Package Design","CVI"],
         date: "2017",
-        images: ["./assets/gallery15_fig04.webp","./assets/gallery15_fig02.webp","./assets/gallery15_fig03.webp"]
+        images: ["./assets/gallery15_fig05.webp","./assets/gallery15_fig02.webp","./assets/gallery15_fig03.webp"]
     },
     { 
         id: 16, 
