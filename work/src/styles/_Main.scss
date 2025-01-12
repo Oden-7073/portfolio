@@ -31,14 +31,22 @@
         h2 {
             font-size: 1.5rem;
             @include mixin.jp-ttl;
+            @media screen and (max-width:mixin.$sp) {
+                font-size: 1.25rem;
+            }
         }
 
         &-item{
             cursor: pointer;
             text-align: left;
             padding: 20px;
+            transition: opacity 0.3s ease;
+            opacity: 1;
             @media screen and (max-width:mixin.$sp) {
                 padding: 0;
+            }
+            &:hover {
+                opacity: 0.5;
             }
             img {
                 width: 100%;
