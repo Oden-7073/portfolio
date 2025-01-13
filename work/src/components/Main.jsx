@@ -1,6 +1,7 @@
 import '../styles/style.scss';
 import Gallery from './Gallery';
 
+
 function Main() {
     return(
         <main className='l-main'>

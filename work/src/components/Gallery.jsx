@@ -94,7 +94,7 @@ const items = [
         title: "人生を輝かせる趣味釣りあそびジャーナル", 
         image: "./assets/gallery06_fig01.webp", 
         description: "PHPを使用して構築された、釣りの楽しさやさまざまな釣り知識を紹介する趣味志向のウェブサイト" ,
-        tags: ["Html", "Css", "Coding","JavaScript","Wordoress","図版作成","UI/UX"],
+        tags: ["Html", "Css", "Coding","JavaScript","Wordpress","図版作成","UI/UX"],
         date: "2021.07 - 2024.12",
         links: [
             { label: "https://tsuriasobi.net/", url: "https://tsuriasobi.net/" }
@@ -116,7 +116,7 @@ const items = [
         title: "株式会社コバヤシ", 
         image: "./assets/gallery13_fig01.webp", 
         description: "株式会社コバヤシは、「コバゾール」を始めとする自社オリジナル製品の開発、製造、リサイクル事業や非石油系素材等までも手掛けるプラスチックの総合企業です。" ,
-        tags: ["Html", "Css", "Coding","JavaScript","Wordoress","UI/UX"],
+        tags: ["Html", "Css", "Coding","JavaScript","Wordpress","UI/UX"],
         date: "2023.05 - 2024.12",
         links: [
             { label: "https://www.kbjapan.co.jp/jpn", url: "https://www.kbjapan.co.jp/jpn" }
@@ -166,7 +166,7 @@ const items = [
         title: "go global inter kids", 
         image: "./assets/gallery09_fig01.webp", 
         description: "Go Global Inter Kidsは有名なインターナショナルスクールであり、子どもたちに優れた外国語学習環境を提供することを目的としています。主に担当した範囲は、ウェブサイトの保守・更新と機能実装のコーディング(2024年4月まで担当" ,
-        tags: ["Html", "Css", "Coding","JavaScript","Wordoress","図版作成","UI/UX"],
+        tags: ["Html", "Css", "Coding","JavaScript","Wordpress","図版作成","UI/UX"],
         date: "2021.07 - 2024.04",
         links: [
             { label: "https://www.gglobal.jp/", url: "https://www.gglobal.jp/" }
