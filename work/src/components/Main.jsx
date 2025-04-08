@@ -15,7 +15,7 @@ function Main() {
                 </div>
                 <h2 className='mb_10'>Japan</h2>
                 <div>
-                    <p>2021.07 - 2025 今 アドバー株式会社 Webデザイナー</p>
+                    <p>2021.07 - 2025.02 アドバー株式会社 Webデザイナー</p>
                 </div>
             </div>        
             <div className="l-main-work pb_100">
