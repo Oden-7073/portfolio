@@ -71,9 +71,9 @@
         justify-content: center;
         align-items: center;
         z-index: 1000;
-        opacity: 0;
-        animation: fadeIn 0.3s forwards;
+        opacity: 0;        
         color: #000;
+        animation: fadeIn 0.3s forwards; 
         h3{
             @include mixin.jp-ttl;
             font-size: 1.25rem;
@@ -88,7 +88,6 @@
             position: relative;
             max-height: 90%;
             overflow: overlay;
-
             img {
                 width: 100%;
                 margin-bottom: 10px;
@@ -111,8 +110,7 @@
                     margin-left: 20px;
                     @include mixin.roboto;
                 }
-            }
-            
+            }            
         }
         button {
             margin-top: 50px;
@@ -180,8 +178,13 @@
     }
       
     @keyframes fadeIn {
-    to {
-        opacity: 1;
+        to {
+            opacity: 1;
+        }
     }
+    @keyframes fadeOut {
+        to {
+            opacity: 0;
+        }
     }
 }
