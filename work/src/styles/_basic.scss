@@ -43,6 +43,11 @@ a {
     &:visited {
         color: inherit;
     }
+    &::after {
+        content: '🔗';
+        margin-left: 4px;
+        font-size: 0.8em;
+    }
 }
 
 //date
