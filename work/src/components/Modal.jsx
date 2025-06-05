@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"; // 引入 PropTypes
 import { useState } from "react"; // 引入 useState
+import DetailSection from "./DetailSection"; // 引入DetailSection
 import "../styles/style.scss";
 
 function Modal({ item, onClose }) {
@@ -56,31 +57,28 @@ function Modal({ item, onClose }) {
           <p className="mb_30">{item.description}</p>
 
           {/* 顯示詳細內容 */}
-          {item.details && (
-            <div className="l-modal-content-details">
-              <h3>担当した分</h3>
-              <p className="l-modal-content-details-intro">
-                {item.details.intro}
-              </p>
-              <ul className="l-modal-content-details-list">
-                {item.details.list.map((detail, index) => (
-                  <li key={index}>
-                    {detail.url ? (
-                      <a
-                        href={detail.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {detail.text}
-                      </a>
-                    ) : (
-                      detail.text
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <div className="l-modal-content-details">
+            {item.details?.overview && (
+              <>
+                <h3>業務内容</h3>
+                <p className="l-modal-content-details-intro">{item.details.overview}</p>
+              </>
+            )}
+            <DetailSection
+              title="制作環境"
+              list={item.details.environmentList}
+            />
+            <DetailSection
+              title="担当フェーズ"
+              list={item.details.intro}
+            />
+            <DetailSection
+              title="制作実績"
+              list={item.details.list}
+              withLink
+            />
+          </div>
+          
 
           {/* 顯示其他圖片 */}
           {item.images && item.images.length > 0 && (
@@ -130,10 +128,20 @@ Modal.propTypes = {
     ),
     images: PropTypes.arrayOf(PropTypes.string),
     details: PropTypes.shape({
-      intro: PropTypes.string,
+      overview: PropTypes.string,
+      environmentList: PropTypes.arrayOf(
+        PropTypes.shape({
+          text: PropTypes.string.isRequired
+        })
+      ),
+      intro: PropTypes.arrayOf(
+        PropTypes.shape({
+          text: PropTypes.string.isRequired
+        })
+      ),
       list: PropTypes.arrayOf(
         PropTypes.shape({
-          text: PropTypes.string,
+          text: PropTypes.string.isRequired,
           url: PropTypes.string,
         })
       ),
