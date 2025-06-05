@@ -17,7 +17,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（再構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Figma"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -48,7 +52,10 @@ const items = [
             overview: "サイトの企画、提案,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -79,7 +86,10 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -113,7 +123,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -146,7 +160,12 @@ const items = [
             environmentList: [
                 {text: "HTML/CSS"},
                 {text: "JavaScript"},
-                {text: "Wordpress"}
+                {text: "Wordpress"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Figma"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -178,7 +197,11 @@ const items = [
             environmentList: [
                 {text: "HTML/CSS"},
                 {text: "JavaScript"},
-                {text: "Wordpress"}
+                {text: "Wordpress"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Figma"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -208,7 +231,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Figma"}
             ],
             intro: [
                 {text: "HTML・CSS・JavaScriptコーディング"},
@@ -235,7 +262,10 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"}
             ],
             intro: [
                 {text: "HTML・CSS・JavaScriptコーディング"},
@@ -259,7 +289,11 @@ const items = [
             environmentList: [
                 {text: "HTML/CSS"},
                 {text: "JavaScript"},
-                {text: "Wordpress"}
+                {text: "Wordpress"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "サブページ制作"},
@@ -284,7 +318,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "ページ制作"},
@@ -308,7 +346,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "ページ制作"},
@@ -336,7 +378,11 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Photoshop"},
+                {text: "Illustrator"},
+                {text: "Visual Studio Code"},
+                {text: "Adobe XD"}
             ],
             intro: [
                 {text: "ページ制作"},
@@ -363,7 +409,8 @@ const items = [
             overview: "サイトの要件定義と企画提案（ワイヤーフレーム作成、サイトマップ設計）,サイトの制作（構築、設計、デザイン、コーディング）,メンテナンス業務",
             environmentList: [
                 {text: "HTML/CSS"},
-                {text: "JavaScript"}
+                {text: "JavaScript"},
+                {text: "Visual Studio Code"}
             ],
             intro: [
                 {text: "ページ制作"},
@@ -415,7 +462,8 @@ const items = [
             environmentList: [
                 {text: "Photoshop"},
                 {text: "Illustrator"},
-                {text: "InDesign"}
+                {text: "InDesign"},
+                {text: "Adobe Lightroom"}
             ],
             intro: [
                 {text: "パッケージデザイン"},               
