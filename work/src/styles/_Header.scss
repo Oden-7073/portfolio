@@ -24,12 +24,15 @@
                 border-radius: 0 150px 150px 0;
                 height: fit-content;
                 width: fit-content;
-                background: #F8B9B5;
+                background: #F8B9B5;                
                 &_icon {
                     padding: 15px;                  
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    @media screen and (max-width:mixin.$sp) {
+                        padding: 15px 0 !important;
+                    }
                     h2 {
                         padding: 0 2.5rem;
                         @media screen and (max-width:mixin.$sp) {
