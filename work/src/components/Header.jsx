@@ -13,7 +13,7 @@ function Header() {
                     </div>                    
                 </div>
                 <div className="l-header-left-txtarea">
-                    <p className='mb_10'>From Taiwan, go to  Japan in 2019.<br/>2009 百年來的凝視ー 大学生ポスターデザインコンテスト 「佳作」賞をもらいました。</p>
+                    <p className='mb_10'>From Taiwan, go to  Japan in 2019.</p>
                     <p>本サイトをReactで作成します。</p>
                 </div>                
             </div>

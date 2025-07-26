@@ -1,9 +1,9 @@
 const items = [
     { 
         id: 1, 
-        title: "三菱電機インフォメーションネットワーク株式会社", 
+        title: "大手ITインフラ・セキュリティ領域企業 M社", 
         image: "./assets/gallery01_fig01.webp", 
-        description: "ユーザー企業の製品や事例などを紹介する総合的な企業ウェブサイトの構築支援。" ,
+        description: "情報セキュリティサービスやネットワーク構築、DX支援などを提供する企業のコーポレートサイトにおいて、サイトのリニューアルおよび更新・運用に従事。HTML/CSS/JavaScriptを用いたUIの再設計、ページ構成の見直し、動線改善、保守対応など幅広く担当しました。" ,
         tags: ["Html", "Css", "Coding","JavaScript","レスポンシブ対応"],
         date: "2023.04 - 2024.04",
         links: [
@@ -35,9 +35,9 @@ const items = [
     },
     { 
         id: 2, 
-        title: "IIJ", 
+        title: "大手IT通信業界 I社", 
         image: "./assets/gallery02_fig01.webp", 
-        description: "ユーザー企業の製品や事例などを紹介する総合的な企業ウェブサイトの構築支援。" ,
+        description: "企業向けインターネット接続サービスやクラウドサービスなどを提供するIT企業のコーポレートサイトの更新・運用に携わりました。  デザイン調整や画像修正、ページ追加に伴うコーディング（HTML/CSS/JavaScript）を担当。" ,
         tags: ["Html", "Css", "Coding","JavaScript","図版作成","レスポンシブ対応"],
         date: "2021.07 - 2024.12",
         links: [
@@ -69,9 +69,9 @@ const items = [
     },
     { 
         id: 4, 
-        title: "株式会社ムサシ", 
+        title: "大手印刷・情報システム企業 M社", 
         image: "./assets/gallery04_fig01.webp", 
-        description: "ユーザー企業の製品や事例などを紹介する総合的な企業ウェブサイトの構築支援。" ,
+        description: "大手印刷・情報システム企業のコーポレートサイト更新案件に参画。印刷システムや金融向けソリューションを展開するIT企業のWebページで、HTML/CSS/JavaScriptを用いたデザイン修正およびコーディングを担当。" ,
         tags: ["Html", "Css", "Coding","JavaScript","図版作成","レスポンシブ対応"],
         date: "2021.07 - 2024.12",
         links: [
@@ -107,9 +107,9 @@ const items = [
     },
     { 
         id: 5, 
-        title: "ムサシ・イメージ情報株式会社", 
+        title: "広告・印刷系のBtoB企業 M社", 
         image: "./assets/gallery05_fig01.webp", 
-        description: "ユーザー企業の製品や事例などを紹介する総合的な企業ウェブサイトの構築支援。" ,
+        description: "大手印刷・情報システム企業のコーポレートサイト更新案件に参画。印刷システムや金融向けソリューションを展開するIT企業のWebページで、HTML/CSS/JavaScriptを用いたデザイン修正およびコーディングを担当。" ,
         tags: ["Html", "Css", "Coding","JavaScript","UI/UX","レスポンシブ対応"],
         date: "2021.07 - 2024.12",
         links: [
@@ -142,9 +142,9 @@ const items = [
     },
     { 
         id: 6, 
-        title: "人生を輝かせる趣味釣りあそびジャーナル", 
+        title: "趣味系情報メディアサイト", 
         image: "./assets/gallery06_fig01.webp", 
-        description: "PHPを使用して構築された、釣りの楽しさやさまざまな釣り知識を紹介する趣味志向のウェブサイト" ,
+        description: "WordPressのテーマカスタマイズやデザイン調整、HTML/CSS/JavaScript/PHPによるコーディングのほか、記事コンテンツの更新・保守対応にも従事。 " ,
         tags: ["Html", "Css", "Coding","JavaScript","Wordpress","図版作成","UI/UX","レスポンシブ対応"],
         date: "2021.07 - 2024.12",
         links: [
@@ -180,9 +180,9 @@ const items = [
     },
     { 
         id: 13, 
-        title: "株式会社コバヤシ", 
+        title: "工業資材メーカー系企業 K社", 
         image: "./assets/gallery13_fig01.webp", 
-        description: "株式会社コバヤシは、「コバゾール」を始めとする自社オリジナル製品の開発、製造、リサイクル事業や非石油系素材等までも手掛けるプラスチックの総合企業です。" ,
+        description: "工業資材を取り扱うBtoBメーカー企業のコーポレートサイトを新規構築。企業イメージの刷新と情報整理を目的とし、トップページから製品情報ページまで一貫してデザインおよび実装を担当。 " ,
         tags: ["Html", "Css", "Coding","JavaScript","Wordpress","UI/UX","レスポンシブ対応"],
         date: "2023.05 - 2024.12",
         links: [
@@ -215,9 +215,9 @@ const items = [
     }, 
     { 
         id: 11, 
-        title: "採用情報 | セガサミーホールディングス", 
+        title: "大手エンタメグループの採用情報ページ", 
         image: "./assets/gallery11_fig01.webp", 
-        description: "セガサミーホールディングスの採用ページです。求職者向けに会社の環境や福利厚生を紹介することを目的としています。" ,
+        description: "大手エンタメグループの採用情報ページ制作において、Figma上の一部下層ページのレイアウト調整およびHTML/CSSによる実装、テキスト修正作業を担当。" ,
         tags: ["Html", "Css", "Coding","JavaScript","レスポンシブ対応"],
         date: "2023.07 - 2024.11",
         links: [
@@ -246,9 +246,9 @@ const items = [
     },
     { 
         id: 8, 
-        title: "大同通運グループ", 
+        title: "レンタカー事業サイト", 
         image: "./assets/gallery08_fig01.webp", 
-        description: "ユーザー企業の車両レンタルサービスを紹介するウェブサイト。主に担当した範囲は、日常的な保守・更新作業ですです。" ,
+        description: "グループ傘下のレンタカーサービスの紹介サイトを新規構築。サービス訴求と信頼感の伝達を目的とし、ユーザーが使いやすい設計・導線を意識したデザインを担当。PC/スマホ両対応のレスポンシブ設計に加え、HTML/CSS/JavaScriptを用いたコーディングも実施。 " ,
         tags: ["Html", "Css", "Coding","JavaScript","レスポンシブ対応"],
         date: "2023.05 - 2024.11",
         links: [
@@ -271,9 +271,9 @@ const items = [
     },
     { 
         id: 9, 
-        title: "go global inter kids", 
+        title: "インターナショナル保育施設サイト", 
         image: "./assets/gallery09_fig01.webp", 
-        description: "Go Global Inter Kidsは有名なインターナショナルスクールであり、子どもたちに優れた外国語学習環境を提供することを目的としています。主に担当した範囲は、ウェブサイトの保守・更新と機能実装のコーディング(2024年4月まで担当" ,
+        description: "園の特色や保育方針を伝えるWebサイトの更新業務・コンテンツ改修などを担当しました。WordPressを用いたサイトカスタマイズ、HTML/CSS/JavaScriptによるコーディング、UI調整、画像作成・保守対応を行いました。" ,
         tags: ["Html", "Css", "Coding","JavaScript","Wordpress","図版作成","UI/UX","レスポンシブ対応"],
         date: "2021.07 - 2024.04",
         links: [
@@ -304,9 +304,9 @@ const items = [
     },
     { 
         id: 10, 
-        title: "JCHO大阪病院 脊椎外科センター", 
+        title: "専門診療科LPサイト新規制作", 
         image: "./assets/gallery10_fig01.webp", 
-        description: "病院が一般の方々のために作成した医師個人用LPサイトであり、患者が医師の経歴や得意とする専門分野を知ることを目的としています。主に担当した範囲は、FigmaでUI/UXをデザイン作成した後、LPページを制作することです。" ,
+        description: "患者向けに特定診療科の概要、診療フロー、アクセス情報などを掲載したLPを新規制作。HTML/CSS/JavaScriptによるコーディング、UI設計や画像制作、SEOを考慮した構成提案などを担当。" ,
         tags: ["Html", "Css", "Coding","JavaScript","図版作成","UI/UX","レスポンシブ対応"],
         date: "2023.12",
         images: ["./assets/gallery10_fig02.webp"],
@@ -325,14 +325,17 @@ const items = [
                 {text: "UI/UX設計"},
                 {text: "HTML・CSS・JavaScriptコーディング"},
                 {text: "画像,バナー制作"}
+            ],
+            list: [
+              {text: "該サイトは現在非公開となっております。", url: null},
             ]
         }
     },
     { 
         id: 7, 
-        title: "DAIDO.high-R", 
+        title: "レンタカー事業サイト新規制作", 
         image: "./assets/gallery07_fig01.webp", 
-        description: "ユーザー企業の車両レンタルサービスを紹介するウェブサイト。主に担当した範囲は、FigmaでUI/UXをデザイン作成した後、LPページを制作することです。" ,
+        description: "グループ傘下のレンタカーサービスの紹介サイトを新規構築。サービス訴求と信頼感の伝達を目的とし、ユーザーが使いやすい設計・導線を意識したデザインを担当。PC/スマホ両対応のレスポンシブ設計に加え、HTML/CSS/JavaScriptを用いたコーディングも実施。 " ,
         tags: ["Html", "Css", "Coding","JavaScript","UI/UX","LP","レスポンシブ対応"],
         date: "2023.05",
         links: [
@@ -362,9 +365,9 @@ const items = [
     }, 
     { 
         id: 3, 
-        title: "奥村 浩隆 先生-新座志木中央総合病院", 
+        title: "医療法人グループ所属医師のLPサイト", 
         image: "./assets/gallery03_fig01.webp", 
-        description: "病院が一般の方々のために作成した医師個人用LPサイトであり、患者が医師の経歴や得意とする専門分野を知ることを目的としています。主に担当した範囲は、FigmaでUI/UXをデザイン作成した後、LPページを制作することです。" ,
+        description: "医療法人グループに所属する現役医師の個人向け紹介サイトを新規構築。患者向けに医師の専門分野や診療理念、インタビュー記事などを紹介するサイトで、HTML/CSS/JavaScriptによる静的コーディングに加え、UI設計やSEOを考慮した情報設計も担当しました。 " ,
         tags: ["Html", "Css", "Coding","LP","UI/UX","レスポンシブ対応"],
         date: "2023.05",
         links: [
@@ -393,9 +396,9 @@ const items = [
     }, 
     { 
         id: 12, 
-        title: "ニキビ一緒に治そうProject｜製薬会社のマルホ", 
+        title: "医療系企業の啓発サイト", 
         image: "./assets/gallery12_fig01.webp", 
-        description: "ニキビ一緒に治そうProjectは製薬会社のマルホがニキビに関する情報を発信します。ニキビの原因から皮膚科でのニキビ治療をご紹介。" ,
+        description: "ニキビに関する情報を発信する、医療系クライアントの啓発サイトにて、思春期から成人期までの原因や治療法を紹介するWebコンテンツの更新業務に携わりました。" ,
         tags: ["Html", "Css", "Coding","JavaScript","レスポンシブ対応"],
         date: "2021.11 - 2022.11",
         links: [
