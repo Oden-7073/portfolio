@@ -246,9 +246,9 @@ const items = [
     },
     { 
         id: 8, 
-        title: "レンタカー事業サイト", 
+        title: "物流グループ関連会社 D社", 
         image: "./assets/gallery08_fig01.webp", 
-        description: "グループ傘下のレンタカーサービスの紹介サイトを新規構築。サービス訴求と信頼感の伝達を目的とし、ユーザーが使いやすい設計・導線を意識したデザインを担当。PC/スマホ両対応のレスポンシブ設計に加え、HTML/CSS/JavaScriptを用いたコーディングも実施。 " ,
+        description: "物流グループ関連会社のWebサイトにおいて、継続的なメンテナンス・運用業務に従事。HTML/CSS/JavaScriptによるページ修正やレイアウト調整、画像更新を通じて、サイトの利便性と鮮度の維持に貢献しました。" ,
         tags: ["Html", "Css", "Coding","JavaScript","レスポンシブ対応"],
         date: "2023.05 - 2024.11",
         links: [
@@ -333,7 +333,7 @@ const items = [
     },
     { 
         id: 7, 
-        title: "レンタカー事業サイト新規制作", 
+        title: "レンタカー事業サイト", 
         image: "./assets/gallery07_fig01.webp", 
         description: "グループ傘下のレンタカーサービスの紹介サイトを新規構築。サービス訴求と信頼感の伝達を目的とし、ユーザーが使いやすい設計・導線を意識したデザインを担当。PC/スマホ両対応のレスポンシブ設計に加え、HTML/CSS/JavaScriptを用いたコーディングも実施。 " ,
         tags: ["Html", "Css", "Coding","JavaScript","UI/UX","LP","レスポンシブ対応"],
