@@ -5,7 +5,7 @@ import Gallery from './Gallery';
 function Main() {
     return(
         <main className='l-main'>
-            <div className='l-main-summy pb_100'data-aos="fade-in">
+            <div className='l-main-summy pb_100' data-aos="fade-down">
                 <h1>SUMMARY</h1>
                 <h2 className='mb_10'>Taiwan</h2>
                 <div className='mb_10'>
