@@ -16,7 +16,8 @@ body {
     max-width: 1660px;
     background: linear-gradient(to bottom, #FDFBFB, #EEF1F5); 
     color: #000;
-    transition: background-color 0.3s, color 0.3s;     
+    transition: background-color 0.3s, color 0.3s;
+    overflow-y: hidden; 
 }
 
 #root {
@@ -115,4 +116,11 @@ body.dark-mode {
     &:hover {
         opacity: 0.5;
       }
+}
+
+//no-aos
+.no-aos [data-aos]{
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
 }

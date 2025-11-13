@@ -4,7 +4,7 @@ import ToggleSwitch from './ToggleSwitch';
 function Header() {
     return(
         <header className="l-header">
-            <div className="l-header-left">
+            <div className="l-header-left" data-aos="fade-left">
                 <div className="l-header-left-profile">
                     <div className="l-header-left-profile_icon">
                         <h2>Oden</h2>
@@ -17,7 +17,7 @@ function Header() {
                     <p>本サイトをReactで作成します。</p>
                 </div>                
             </div>
-            <div className="l-header-right">
+            <div className="l-header-right" data-aos="fade-right">
                 <div className="l-header-right_ttlbox">
                     <h1>子午</h1>
                     <div>

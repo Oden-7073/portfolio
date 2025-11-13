@@ -74,7 +74,11 @@
             color: #000;
             margin-right: 20px;
             @media screen and (max-width:mixin.$sp) {
-                height: fit-content;
+                height: fit-content;                
+                max-width: 300px;
+            }
+            @media screen and (max-width:560px) {              
+                max-width: 150px;
             } 
             &_ttlbox {
                 display: flex;
