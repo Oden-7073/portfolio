@@ -1,0 +1,39 @@
+{
+  "header": {
+    "profile": {
+      "name": "Oden",
+      "intro": {
+        "line1": "From Taiwan, go to Japan in 2019.",
+        "line2": "本サイトをReactで作成します。"
+      }
+    },
+    "title": "子午",
+    "subtitle": {
+        "line1": "Odens Personal",
+        "line2": "Portfolio Website"
+    }
+  },
+  "main": {
+    "summary":{
+        "taiwan":{
+            "desc1":"約7年間にてグラフィックデザイナーとして勤務。",
+            "desc2":"広告物、ブランドビジュアル、印刷物など幅広い制作業務を経験し、実務スキルを磨いてきました。"
+        },
+        "japan":{
+            "desc1":"日系企業にてWebデザイナーとして従事。",
+            "desc2":"BtoBサイトやLP制作、UI設計など、ディレクターやエンジニアと連携しながらWeb制作全般を担当しました。"
+        }
+    },
+    "skill":{
+        "skills":{
+            "desc":"Html /  SCSS (BEM/SMACSSベースのモジュール設計) / Wordpress /  Javascript / UIUX Design / Graphic Design / Drawing / Creative / Photo retouching"
+        }        
+    }
+  },
+  "modal":{
+    "subttl1":"制作環境",
+    "subttl2":"担当フェーズ",
+    "subttl3":"制作実績"
+  }
+  
+}

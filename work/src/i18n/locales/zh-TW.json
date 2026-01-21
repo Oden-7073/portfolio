@@ -1,0 +1,33 @@
+{
+  "header": {
+    "profile": {
+      "name": "Oden",
+      "intro": {
+        "line1": "於2019自台灣來到日本。",
+        "line2": "本網站基於react做成。"
+      }
+    },
+    "title": "子午",
+    "subtitle": {
+        "line1": "Odens Personal",
+        "line2": "Portfolio Website"
+    }
+  },
+  "main": {
+    "summary":{
+        "taiwan":{
+            "desc1":"有約七年左右的平面設計師經驗。",
+            "desc2":"具有平面設計、印刷品監製、廣告印刷等豐富經驗。"
+        },
+        "japan":{
+            "desc1":"在日系企業擔任網頁設計師。",
+            "desc2":"製作B2B網站、LP網站、UI設計、coding等等全面性的網站製作。"
+        }
+    },
+    "skill":{
+        "skills":{
+            "desc":"Html /  SCSS / Wordpress /  Javascript / UIUX Design / Graphic Design / Drawing / Creative / Photo retouching"
+        }        
+    }
+  }
+}

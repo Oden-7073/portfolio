@@ -1,9 +1,11 @@
 import PropTypes from "prop-types"; // 引入 PropTypes
 import { useState } from "react"; // 引入 useState
 import DetailSection from "./DetailSection"; // 引入DetailSection
+import { useTranslation } from "react-i18next";
 import "../styles/style.scss";
 
 function Modal({ item, onClose }) {
+  const { t } = useTranslation();
   const [zoomedImage, setZoomedImage] = useState(null); // 用於存放當前放大的圖片 URL
 
   // 處理圖片點擊放大
@@ -65,15 +67,15 @@ function Modal({ item, onClose }) {
               </>
             )}
             <DetailSection
-              title="制作環境"
+              title={t("modal.subttl1")}
               list={item.details.environmentList}
             />
             <DetailSection
-              title="担当フェーズ"
+              title={t("modal.subttl2")}
               list={item.details.intro}
             />
             <DetailSection
-              title="制作実績"
+              title={t("modal.subttl3")}
               list={item.details.list}
               withLink
             />

@@ -1,8 +1,10 @@
 import '../styles/style.scss';
 import Gallery from './Gallery';
+import { useTranslation } from "react-i18next";
 
 
 function Main() {
+    const { t } = useTranslation();
     return(
         <main className='l-main'>
             <div className='l-main-summy pb_100' data-aos="fade-down">
@@ -10,14 +12,14 @@ function Main() {
                 <h2 className='mb_10'>Taiwan</h2>
                 <div className='mb_10'>
                     <p>2012.10~2019.7</p>
-                    <p>約7年間にてグラフィックデザイナーとして勤務。</p>
-                    <p>広告物、ブランドビジュアル、印刷物など幅広い制作業務を経験し、実務スキルを磨いてきました。</p>
+                    <p>{t("main.summary.taiwan.desc1")}</p>
+                    <p>{t("main.summary.taiwan.desc2")}</p>
                 </div>
                 <h2 className='mb_10'>Japan</h2>
                 <div>
                     <p>2021.07~2025.02</p>
-                    <p>日系企業にてWebデザイナーとして従事。</p>
-                    <p>BtoBサイトやLP制作、UI設計など、ディレクターやエンジニアと連携しながらWeb制作全般を担当しました。</p>
+                    <p>{t("main.summary.japan.desc1")}</p>
+                    <p>{t("main.summary.japan.desc2")}</p>
                 </div>
             </div>        
             <div className="l-main-work pb_100" data-aos="fade-up">
@@ -29,7 +31,7 @@ function Main() {
                 </p>
                 <h2 className='mb_10'>Skills</h2>
                 <p>
-                    Html /  SCSS (BEM/SMACSSベースのモジュール設計) / Wordpress /  Javascript / UIUX Design / Graphic Design / Drawing / Creative / Photo retouching
+                    {t("main.skill.skills.desc")}
                 </p>
             </div>
             <div className="l-main-work pb_100">
